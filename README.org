@@ -2,6 +2,8 @@
 I've written some code to scrape specific pages on the [[http://jojo.wikia.com][JoJo's Bizarre Adventure Wiki]] for characters and the episodes or chapters they appear in.
 I then merge the list with itself to generate a new list of characters who are connected by appearing in the same episode or chapter.
 Lastly I draw network diagrams for all parts and for each part individually.
+
+Check out the [[https://github.com/lobotomyp0p/jojo-wiki-network/blob/master/jojo_scrape_bs4.ipynb][notebook]] to see how it works.
 * details
 ** language
 Python

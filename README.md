@@ -9,6 +9,7 @@
 <li><a href="#sec-2-2">2.2. packages</a></li>
 </ul>
 </li>
+<li><a href="#sec-3">3. to do</a></li>
 </ul>
 </div>
 </div>
@@ -18,6 +19,8 @@
 I've written some code to scrape specific pages on the [JoJo's Bizarre Adventure Wiki](http://jojo.wikia.com) for characters and the episodes or chapters they appear in.
 I then merge the list with itself to generate a new list of characters who are connected by appearing in the same episode or chapter.
 Lastly I draw network diagrams for all parts and for each part individually.
+
+Check out the [notebook](https://github.com/lobotomyp0p/jojo-wiki-network/blob/master/jojo_scrape_bs4.ipynb) to see how it works.
 
 # details<a id="sec-2" name="sec-2"></a>
 
@@ -31,3 +34,14 @@ Python
 -   beautifulsoup 4
 -   pandas
 -   networkx
+
+# to do<a id="sec-3" name="sec-3"></a>
+
+-   Weight edges by the number of appearances characters make together
+-   Color edges by the first part in which characters make an appearance together
+-   Color nodes by pagerank
+-   Hide node labels except for major characters
+-   Interactive features: (in notebook? in HTML?)
+    -   mouse-over an edge to see what appearance it corresponds to
+    -   mouse-over a node to see some data about the character
+        -   a picture? wiki categories?
