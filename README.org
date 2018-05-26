@@ -10,3 +10,12 @@ Python
 - beautifulsoup 4
 - pandas
 - networkx
+* to do
+- Weight edges by the number of appearances characters make together
+- Color edges by the first part in which characters make an appearance together
+- Color nodes by pagerank
+- Hide node labels except for major characters
+- Interactive features: (in notebook? in HTML?)
+  - mouse-over an edge to see what appearance it corresponds to
+  - mouse-over a node to see some data about the character
+    - a picture? wiki categories?
