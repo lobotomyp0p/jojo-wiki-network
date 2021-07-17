@@ -1,3 +1,7 @@
+# This repository is no longer being maintained.
+
+I am leaving it up because it is an instructive, simple example for Beautiful Soup and NetworkX. However Fandom Wiki has changed the format of their pages at some point, so the ipython notebook will no longer work "out of the box". I have no plans to fix it.
+
 <div id="table-of-contents">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
